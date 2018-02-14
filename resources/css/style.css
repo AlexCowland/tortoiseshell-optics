@@ -2,7 +2,10 @@ html {
   font-size: 18px;
   font-family: helvetica, sans-serif;
   line-height: 1.4;
+}
 
+p, h4 {
+  line-height: 1.4;
 }
 
 .container {
@@ -49,6 +52,7 @@ nav span a {
   background-image: url(../img/glasses-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
 }
 
 .banner-msg {
@@ -94,11 +98,12 @@ nav span a {
 /*About section*/
 #about {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   margin-bottom: 5rem;
 }
 .about-item {
   width: 35%;
+  margin: 0 2.5%;
 }
 
 .sub-head {
@@ -113,4 +118,26 @@ nav span a {
   font-size: 1rem;
   color: white;
   text-transform: uppercase;
+}
+
+/*Footer*/
+footer {
+  background-color: azure;
+}
+
+footer .container {
+  display: flex;
+  justify-content: flex-start;
+
+}
+
+.copyright {
+  display: flex;
+  align-items: center;
+  padding: 4rem;
+}
+
+.copyright img {
+  height: 1.5rem;
+  margin-right: 1rem;
 }
