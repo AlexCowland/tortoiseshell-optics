@@ -181,7 +181,7 @@ footer .container {
   .banner-msg span {
     width: 100%;
   }
-}
+
 
 /*services mobile styles*/
 #services {
@@ -222,4 +222,6 @@ footer .container {
 
 .copyright p {
   display: none;
+}
+
 }
