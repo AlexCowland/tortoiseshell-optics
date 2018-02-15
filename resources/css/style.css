@@ -163,6 +163,8 @@ footer .container {
 }
 
 @media screen and (max-width: 700px) {
+
+/*top section*/
   nav span.hidden {
     display: inherit;
   }
@@ -172,4 +174,52 @@ footer .container {
   .banner {
     height: 17rem;
   }
+  .banner-msg {
+    margin: 9rem 0;
+    display: block;
+  }
+  .banner-msg span {
+    width: 100%;
+  }
+}
+
+/*services mobile styles*/
+#services {
+  margin: 3.77rem 0;
+  height: auto;
+  flex-direction: column;
+  align-items: center;
+}
+
+.service-item {
+  margin: 1.54rem;
+}
+
+/*About section mobile styles*/
+#about {
+  flex-direction: column;
+}
+
+.about-item {
+  width: 100%;
+  margin: 0 0 4rem 0;
+}
+
+.about-item p {
+  font-size: 0.77rem;
+  margin: 0 0.5rem;
+}
+
+.sub-head {
+  width: 100%;
+  text-align: center;
+}
+
+/*Footer mobile styles*/
+footer .container {
+  justify-content: center;
+}
+
+.copyright p {
+  display: none;
 }
